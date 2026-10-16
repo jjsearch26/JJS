@@ -1,0 +1,44 @@
+/* Luke Banks partner profile: uses JJS 2.4 shared brand and header unchanged */
+.luke-hero{padding:80px 0 0;position:relative;overflow:hidden}
+.luke-hero:before{content:"";position:absolute;right:3%;top:8%;width:44%;height:75%;background:url('jjs-logo.svg') center/contain no-repeat;opacity:.045;pointer-events:none}
+.luke-hero>.wrap{position:relative}
+.luke-hero-grid{display:grid;grid-template-columns:54% 46%;gap:35px;align-items:stretch;margin-top:32px}
+.luke-copy{padding:40px 0 72px}
+.luke-copy h1{font-size:clamp(72px,9vw,136px);line-height:.92;letter-spacing:-.04em;margin:25px 0 35px}
+.luke-copy h1 em{color:#a28a69;font-style:normal}
+.luke-rule{width:60px;height:2px;background:#a28a69;margin-bottom:22px}
+.luke-role{font-size:11px;letter-spacing:.14em;font-weight:700;margin-bottom:20px}
+.luke-lead{font-size:19px!important;line-height:1.55;max-width:510px;margin-bottom:32px}
+.luke-note{margin:22px 0 0;font-size:11px!important;color:#877d71!important;letter-spacing:.04em}
+.luke-portrait{min-height:580px;background:#090909;position:relative;overflow:hidden}
+.luke-portrait img{position:absolute;width:100%;height:100%;inset:0;object-fit:cover;object-position:center 34%;filter:grayscale(1)}
+.luke-portrait span{position:absolute;bottom:22px;left:24px;right:15px;color:white;font-size:10px;letter-spacing:.16em;text-shadow:0 1px 4px #000}
+.luke-intro{padding:100px 0}
+.luke-intro p{line-height:1.75}
+.luke-two{padding:95px 0 110px}
+.luke-two h2 em{font-style:normal;color:#c6ae8c}
+.luke-columns{display:grid;grid-template-columns:1fr 1fr;gap:7%;margin-top:58px}
+.luke-columns article{border-top:1px solid #72808a;padding-top:25px}
+.luke-index{color:#c6ae8c;font-size:11px;letter-spacing:.16em;font-weight:700}
+.luke-columns h3{margin:22px 0;font-size:clamp(29px,3vw,42px)}
+.luke-columns p{font-size:15px;line-height:1.8}
+.luke-link{display:inline-block;color:#f7f5ef;font-size:12px;font-weight:700;border-bottom:1px solid #c6ae8c;padding-bottom:5px;margin-top:8px}
+.luke-experience{background:#eae7df}
+.luke-experience p{line-height:1.75}
+.luke-secondary-image{height:440px;overflow:hidden;background:#080808}
+.luke-secondary-image img{height:100%;width:100%;object-fit:cover;object-position:center 25%;filter:grayscale(1)}
+.luke-cases{padding:110px 0}
+.luke-cases .case-intro{max-width:640px;font-size:17px}
+.luke-case-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;margin-top:50px}
+.luke-case-grid article{border-top:1px solid #c6c2b8;padding-top:22px}
+.luke-case-grid span{color:#a28a69;font-size:12px}
+.luke-case-grid h3{font-size:30px;margin:18px 0 10px}
+.luke-case-grid p{font-size:14px}
+.luke-cta{padding:95px 0}
+.luke-btn-light{background:#f7f5ef;color:#071b2d}
+.luke-disclaimer{background:#eae7df;text-align:center;padding:14px 25px;font-size:10px;letter-spacing:.08em;color:#6d6860}
+.luke-teaser{background:#eae7df;padding:80px 0}
+.luke-teaser .wrap{display:grid;grid-template-columns:1.5fr 1fr;gap:7vw;align-items:center}
+.luke-teaser h2{font-size:clamp(38px,4.3vw,64px)}
+.luke-teaser p{font-size:17px}
+@media(max-width:850px){.luke-hero-grid{grid-template-columns:1fr;gap:0}.luke-copy{padding:15px 0 50px}.luke-portrait{min-height:440px}.luke-columns,.luke-case-grid,.luke-teaser .wrap{grid-template-columns:1fr}.luke-hero:before{width:80%;right:-18%;top:4%}.luke-experience .split{grid-template-columns:1fr}.luke-secondary-image{height:350px}}
