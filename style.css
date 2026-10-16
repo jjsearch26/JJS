@@ -51,3 +51,13 @@
 @media (prefers-reduced-motion: reduce){
   .hero .art.hero-video video{display:none}
 }
+
+/* Reliable cinematic homepage video playback */
+.hero .art.hero-video .hero-play-button {
+ position:absolute;z-index:5;left:50%;top:50%;transform:translate(-50%,-50%);
+ background:rgba(7,27,45,.88);border:1px solid rgba(255,255,255,.7);
+ color:white;padding:13px 22px;font:600 13px 'DM Sans',Arial,sans-serif;
+ letter-spacing:.06em;cursor:pointer;border-radius:2px;
+}
+.hero .art.hero-video .hero-play-button[hidden]{display:none!important}
+.hero .art.hero-video video{display:block}
