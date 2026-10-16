@@ -61,3 +61,7 @@
 }
 .hero .art.hero-video .hero-play-button[hidden]{display:none!important}
 .hero .art.hero-video video{display:block}
+
+/* Candidates: distinct executive interior, not the Expertise image */
+.photo.candidates-photo { background:#343b3e; }
+.photo.candidates-photo:before { background:linear-gradient(135deg,rgba(0,0,0,.10),rgba(0,0,0,.24)),url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=85') center/cover no-repeat; filter:grayscale(1) contrast(1.08); }
